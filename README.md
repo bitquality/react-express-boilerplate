@@ -1,1 +1,6 @@
 # React Express Boilerplate
+
+## Test User
+``` sql
+INSERT INTO "public"."User"("id", "username", "password", "first_name", "last_name", "createdBy", "createdAt", "updatedAt") VALUES(1, 'admin', 'password', 'Kevin', 'Hou', 'admin', 'now', 'now') RETURNING "id", "username", "password", "first_name", "last_name", "createdBy", "createdAt", "updatedAt";
+```
